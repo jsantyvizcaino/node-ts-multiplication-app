@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 
-import { yarg as argv } from "./config/yargs.plugin";
+import { yarg as argv } from "./config/plugins/yargs.plugin";
 
 const {b:base,l:limit,s:showTable}= argv
 
